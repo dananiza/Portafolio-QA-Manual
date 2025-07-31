@@ -1,0 +1,236 @@
+/* ---------------------- */
+/* ESTILOS GENERALES */
+/* ---------------------- */
+body {
+  font-family: 'Calibri';
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #f8f7ff;
+  color: #333;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 10px auto;
+}
+
+h2 {
+  color: #2c3e50;
+  margin-top: 0;
+  text-align: center;
+}
+
+h3 {
+  color: #555;
+  margin-top: 20px;
+}
+
+
+/* ---------------------- */
+/* ENCABEZADO PRINCIPAL */
+/* ---------------------- */
+.encabezado {
+  background-color: #EDECFC;
+  padding: 30px 0;
+  color: #333;
+}
+
+.contenedor-encabezado {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.rounded-circle {
+  width: 250px;
+  border-radius: 15px;
+  object-fit: cover;
+  margin-left: 20px;
+}
+
+.titulo-principal {
+  flex: 1;
+  text-align: left;
+}
+
+.titulo-principal h1 {
+  margin: 5px 0;
+  font-size: 60px;
+}
+
+
+/* ---------------------- */
+/* BOTONES CV Y LINKEDIN */
+/* ---------------------- */
+.botones {
+  text-align: center;
+  margin-top: 20px;
+  text-decoration: #333;
+}
+
+.botones .btn-primary {
+  background-color: #F0EADB;  
+  color: #333;             
+  border: none;             
+}
+
+.botones .btn-primary:hover {
+  background-color: #E8DACD;
+  color: #333;  
+}
+
+
+/* ---------------------- */
+/* SECCIONES GENERALES */
+/* ---------------------- */
+section {
+  background-color: #ffffff;
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 1000px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+/* ---------------------- */
+/* SOBRE MÍ (sin estilos específicos) */
+/* ---------------------- */
+
+
+/* ---------------------- */
+/* HERRAMIENTAS Y TECNOLOGÍAS */
+/* ---------------------- */
+.tarjetas-herramientas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding: 20px;
+}
+
+.fila {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.tarjeta {
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 10px;
+  width: 160px;
+  height: 220px; 
+  text-align: center;
+  background-color: #f9f9f9;
+  transition: box-shadow 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
+  align-items: center;
+  margin-top: 30px;
+}
+
+.tarjeta:hover {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  background-color: #F4F2E6;
+}
+
+.tarjeta img {
+  width: 100px;
+  margin-bottom: auto;
+  height: 180px;
+  vertical-align: top;
+}
+
+
+/* ---------------------- */
+/* CURSOS Y CARRUSEL */
+/* ---------------------- */
+.carousel-inner img {
+  max-height: 460px;
+  object-fit: contain;
+  width: auto;
+  align-items: center;
+}
+
+
+/* ---------------------- */
+/* MI TRABAJO - BOTONES */
+/* ---------------------- */
+.d-grid {
+  text-align: center;
+  margin-top: 20px;
+  size: 500px;
+  color: #333;
+}
+
+.d-grid .btn-primary {
+  background-color: #F0EADB;  
+  color: #333;             
+  border: none;              
+}
+
+.d-grid .btn-primary:hover {
+  background-color: #E8DACD;  
+  color: #333;
+}
+
+
+/* ---------------------- */
+/* PROYECTOS */
+/* ---------------------- */
+.tarjetas-proyectos img {
+  height: 200px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  object-fit: contain;
+}
+
+.tarjetas-proyectos p {  
+  font-size: 12px;
+  margin-top: auto;
+  margin-bottom: 40px;
+  display: flex;
+}
+
+
+/* ---------------------- */
+/* CONTACTO */
+/* ---------------------- */
+#contacto p {
+  margin: 5px 0;
+}
+
+
+/* ---------------------- */
+/* RESPONSIVE */
+/* ---------------------- */
+@media (max-width: 600px) {
+  section {
+    padding: 15px;
+    margin: 10px;
+  }
+
+  h1 {
+    font-size: 24px;
+    padding: 20px 0;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  .grid-2col {
+    flex-direction: column;
+    align-items: center;
+  }
+}
